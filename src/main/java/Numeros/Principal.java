@@ -23,6 +23,9 @@ import javax.swing.JOptionPane;
                 JOptionPane.showMessageDialog(null, "El número 123 es:  " + nr.regresanumletra(123));
                 break;
             case 2:
+                
+                NumerosIngles ni= new NumerosIngles ();
+                JOptionPane.showMessageDialog(null, "El número 612612 es:  " + ni.ImrimirNumerosIngles(612612));
                 break;
             case 3:
                 NumPurepecha np  = new NumPurepecha ();
